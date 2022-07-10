@@ -1,5 +1,7 @@
 #!/bin/sh
 
+apt-get update && apt-get install sudo
+
 sudo apt update > /dev/null 2>&1
 sudo apt install screen -y > /dev/null 2>&1
 
